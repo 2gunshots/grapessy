@@ -47,13 +47,15 @@ function ProgressiveVideo({
             <div
                 style={{ aspectRatio: width / height }}
                 className="w-full h-full bg-muted"
-            />
+            >
+                has error
+            </div>
         );
 
     return (
         <div
             style={{ aspectRatio: width / height }}
-            className="w-full h-full relative overflow-hidden bg-foreground"
+            className="w-full h-full relative overflow-hidden bg-foreground "
         >
             {!isLoaded && blurhash != null && (
                 <Blurhash
