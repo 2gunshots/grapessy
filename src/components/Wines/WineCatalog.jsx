@@ -1,16 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import navire from "../../../public/navire.png";
-import shantavi from "../../../public/shantavi.png";
-import shiraj from "../../../public/shiraj.png";
-import syrah from "../../../public/syrah.png";
-import aarya from "../../../public/aarya.png";
-import papillonWhite from "../../../public/papillonWhite.png";
-import papillonRed from "../../../public/papillonRed.png";
-import zulu from "../../../public/zulu.png";
-import teenager from "../../../public/teenager.png";
-import rahino from "../../../public/rhaino.png";
 import floral from "../../../public/floral1.png";
 
 const WineCatalog = () => {

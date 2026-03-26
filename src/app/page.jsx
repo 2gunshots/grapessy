@@ -1,9 +1,5 @@
-import Hero from "@/components/Home/Hero";
+
 import WineCatalog from "@/components/Wines/WineCatalog";
-import Image from "next/image";
-import leaves from "../../public/leaves1.png";
-import mountain from "../../public/mountain.jpg";
-import arrow from "../../public/arrow.png";
 import Link from "next/link";
 import ProgressiveImage from "@/components/all/ProgressiveImage";
 import Footer from "@/components/Home/Footer";

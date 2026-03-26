@@ -5,9 +5,6 @@ import { Montserrat } from "next/font/google";
 import { Inter } from "next/font/google";
 import { Shippori_Mincho } from "next/font/google";
 import { EB_Garamond } from "next/font/google";
-import { Cormorant_Garamond } from "next/font/google";
-import Sidebar from "@/components/Nav/Sidebar";
-import Link from "next/link";
 import Footer from "@/components/Home/Footer";
 //Lancelot font
 const montserrat = Montserrat({
@@ -19,12 +16,6 @@ const shipporiMincho = Shippori_Mincho({
     subsets: ["latin"],
     weight: ["400"],
     variable: "--font-shippori",
-});
-const cormorantGaramond = Cormorant_Garamond({
-    subsets: ["latin"],
-    weight: ["300", "400"],
-    style: ["normal"],
-    variable: "--font-cormorant",
 });
 const ebGaramond = EB_Garamond({
     subsets: ["latin"],
@@ -42,7 +33,7 @@ export default function RootLayout({ children }) {
         <html
             lang="en"
             webcrx=""
-            className={`${montserrat.variable} ${shipporiMincho.variable} ${inter.variable} ${ebGaramond.variable} ${cormorantGaramond.variable}`}
+            className={`${montserrat.variable} ${shipporiMincho.variable} ${inter.variable} ${ebGaramond.variable} `}
         >
             <body className={`overflow-x-hidden antialiased`}>
                 {/* <ThemeProvider> */}

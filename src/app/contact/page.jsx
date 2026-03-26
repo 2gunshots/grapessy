@@ -2,7 +2,6 @@ import ContactForm from "@/components/contact/ContactForm";
 import Map from "@/components/contact/Map";
 import Image from "next/image";
 import branch from "../../../public/leavesbg.png";
-import Alert from "@/components/all/Alert";
 
 export default function Contact() {
     return (

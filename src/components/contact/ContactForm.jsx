@@ -87,7 +87,6 @@ export default function ContactForm() {
                 </div>
             </form>
             {alert && <Alert type={alert.type} message={alert.message} />}
-            <Alert type="error" message="Message sent successfully" />
         </>
     );
 }

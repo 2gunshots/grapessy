@@ -1,7 +1,5 @@
 import Link from "next/link";
 import ornament from "../../../public/a.png";
-import scrollwork from "../../../public/scrollwork.png";
-import scrollwork1 from "../../../public/scrollwork1.png";
 import o from "../../../public/o.png";
 import grapessy from "../../../public/grapessy logo.png";
 import Image from "next/image";

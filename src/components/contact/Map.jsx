@@ -1,9 +1,7 @@
 "use client";
-import { useState } from "react";
 import {
     GoogleMap,
     useJsApiLoader,
-    LoadScript,
     Marker,
 } from "@react-google-maps/api";
 import Link from "next/link";
