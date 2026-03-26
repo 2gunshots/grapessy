@@ -44,7 +44,7 @@ export default function Resort() {
                 {shuffled.map((media, index) => {
                     const [width, height] = media.dimensions.split("x") || [];
                     return (
-                        <div key={media.title} className="mb-5">
+                        <div key={media.title} className="pb-5  break-inside: avoid">
                             {media.type === "image" ? (
                                 <ProgressiveImage
                                     url={media.url}

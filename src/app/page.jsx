@@ -48,7 +48,7 @@ export default function App() {
                         ></video>
                     </div>
                 </div> */}
-                    <div className="mt-10">
+                    <div className="md:mt-10">
                         <h1 className="title text-center">
                             Founded in <i>2003</i>
                         </h1>
@@ -93,7 +93,7 @@ export default function App() {
                         </p>
                     </div>
                 </div>
-                <div className="mt-10">
+                <div className="md:mt-10">
                     <h1 className="title text-center">
                         Our Wine <i>Catalogue</i>
                     </h1>
